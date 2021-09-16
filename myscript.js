@@ -11,7 +11,7 @@ function displayfirstBlock() {
     firstName.focus();
   } else {
     errMsg.innerHTML = "";
-    document.querySelector("#simleyDiv").style.display = "block";
+    document.querySelector("#smileyDiv").style.display = "block";
     document.querySelector(
       "#welcomeText"
     ).innerHTML = `Hi ${firstName.value}, How do you feel today?`;
